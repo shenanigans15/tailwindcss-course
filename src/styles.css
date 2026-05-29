@@ -2,6 +2,9 @@
 
 @layer base {
   body {
-    @apply bg-slate-800 text-white px-4 py-2;
+    @apply bg-slate-800 text-white px-4 py-2 p-8;
+  }
+  h1 {
+    @apply mb-2 text-3xl font-bold;
   }
 }
